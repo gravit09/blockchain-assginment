@@ -41,9 +41,6 @@ async function main() {
   );
 
   const Addition = await AdditionFactory.deploy();
-  // await Addition.deployed(); // Ensure the contract is deployed
-  // const [deployer] = await ethers.getSigners();
-  // console.log("Deploying contracts with the account:", deployer.address);
 
   await Addition.getDeployedCode();
   console.log("Contract deployed to:", Addition.target);
