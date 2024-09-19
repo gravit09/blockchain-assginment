@@ -5,6 +5,7 @@
     "hardhat": "^2.22.9"
   },
   "dependencies": {
-    "ethers": "^6.13.2"
+    "ethers": "^6.13.2",
+    "prompt-sync": "^4.2.0"
   }
 }
