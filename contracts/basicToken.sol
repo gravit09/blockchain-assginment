@@ -23,7 +23,7 @@ contract BasicTokenContract {
         _;
     }
 
-    function mintToken(uint value) public {
+    function mintToken(uint value) public isOwner {
         balances[msg.sender] += value;
         emit TokensMinted(msg.sender, value);
     }
