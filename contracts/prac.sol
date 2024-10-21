@@ -9,7 +9,7 @@ contract prac{
      salary = 10000;
    }
 
-   function nameFunc() public returns(string memory){
+   function nameFunc() public pure returns(string memory){
        string memory name2 = "garvit";
        return name2;
    }
